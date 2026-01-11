@@ -14,7 +14,7 @@ using namespace std;
     for(int i=0;i<n;i++){
         if(arr[i][0]<=target&& target<=arr[i][n-1]){
             int start=0;
-            int end=n-1;
+            int end= n-1;
             while(start<=end){
                 int mid=start+(end-start)/2;
                   if(arr[i][mid]==target){
@@ -35,7 +35,7 @@ int main(){
     int arr[4][4]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16};
     int n=4;
     int target=8;
-    cout << "Original Matrix:" << endl;
+    cout << "Original Matrix: " << endl;
     print2D(arr,n);
      cout << endl;
   if (binarySearchOnMatrix(arr, n, target)) {
@@ -46,4 +46,5 @@ int main(){
 
    return 0;
     
+
 }
