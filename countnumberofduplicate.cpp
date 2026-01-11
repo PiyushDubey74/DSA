@@ -2,17 +2,17 @@
 using namespace std;
 int main (){
 
-    int n;
+    int c;
     cout<<"Enter the size of array";
-    cin>>n;
-    int arr[n];
+    cin>>c;
+    int arr[c];
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
       int val =0;
-    for(int i=0;i<n;++i){
+    for(int i=0;i<c;++i){
          bool isDuplicate = false;
-        for(int j=i+1;j<n;){
+        for(int j=i+1;j<c;){
             if(arr[i]==arr[j]){
                
              isDuplicate = true;
@@ -35,7 +35,7 @@ int main (){
         }
     }
   cout<<"Array after removing duplicates\n";
-  for(int i=0;i<n;++i){
+  for(int i=0;i<c;++i){
     cout<<arr[i]<<" ";
 
   }
