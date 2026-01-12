@@ -7,7 +7,7 @@ bool findthedifference(vector<int>&arr,int target){
      int n = arr.size();
     while(end< n){
      int sum=arr[end]-arr[start];
-     if(sum==target){
+     if(sum == target){
         return true;
      }
      else if (sum<target){
@@ -20,13 +20,13 @@ bool findthedifference(vector<int>&arr,int target){
             end++;
     }
 }
-    return false;
+    return false ;
 
 }
 int main ()
 {
  vector<int> arr={2,3,5,10,50,80};
- int target =41;
+ int target = 41;
  if(findthedifference(arr,target)){
     cout<<"Pair with the difference is found"<<endl;
  }
@@ -36,3 +36,4 @@ int main ()
     return 0;
 
 }
+
