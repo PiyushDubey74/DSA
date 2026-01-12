@@ -24,7 +24,7 @@ void findMissingRepeating(int arr[][4], int n) {
     for (int i = 0; i < flat_arr.size(); ++i) {
         int index = abs(flat_arr[i]) - 1;
         if (flat_arr[index] > 0) {
-            flat_arr[index] = -flat_arr[index];
+            flat_arr[index ] = -flat_arr[index];
         } else {
             repeating = abs(flat_arr[i]);
         }
@@ -60,4 +60,5 @@ int main() {
     findMissingRepeating(arr, n);
 
     return 0;
+
 }
