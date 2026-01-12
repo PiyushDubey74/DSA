@@ -4,7 +4,7 @@ using namespace std;
  void printmatrix(int arr[][4],int row){
     for(int i=0;i<row;i++){
         for(int j=0;j<4;j++){
-            cout<<arr[i][j]<<"\t";
+            cout<<arr[ i ][j]<<"\t";
         }
         cout<<endl;
     }
@@ -49,4 +49,5 @@ int main (){
         cout << "Answer is not found." << endl;
     }
     return 0;
+
 }
