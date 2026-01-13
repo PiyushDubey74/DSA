@@ -10,9 +10,10 @@ using namespace std;
   }
 
 int main (){
-   int first=10;
-   int second=20;
+   int first= 10;
+   int second= 20;
    swapping(&first,&second);
    cout<<first<<endl<<second<<endl;
+
 
 }
