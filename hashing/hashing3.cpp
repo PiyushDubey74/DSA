@@ -6,7 +6,7 @@ int main (){
     cout<<"enter value";
     cin>>s;
      
-    //precompute
+    
      int hash[256] ={0};
      for(int i=0;i<s.size();i++){
         hash[s[i]]++;
@@ -23,4 +23,5 @@ int main (){
 
 
     return 0;
+
 }
