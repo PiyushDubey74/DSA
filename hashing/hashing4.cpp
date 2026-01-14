@@ -11,7 +11,7 @@ int main (){
     }
      
     //precompute
-    map<int,int>mpp;
+    map<int, int>mpp;
 
      for(int i=0;i<n;i++){
         mpp[arr[i]]++;
@@ -31,4 +31,5 @@ int main (){
 
 
     return 0;
+
 }
