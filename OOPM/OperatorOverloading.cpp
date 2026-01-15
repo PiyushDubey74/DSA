@@ -5,7 +5,7 @@ using namespace std;
  {
     int real,img;
 
-    public:
+    public :
 
     Complex()
     {
@@ -40,4 +40,5 @@ int main (){
  Complex C3=C1+C2;
  C3.diplay();
     return 0;
+
 }
