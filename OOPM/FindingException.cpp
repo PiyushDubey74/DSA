@@ -3,7 +3,7 @@ using namespace std;
 int main ()
 {
    try{
-  //int *p= new int[10000000000000];
+  //int  *p= new int[10000000000000];
   cout<<"Memory allocation is successfully\n";
   // delete []p;
    }
@@ -13,4 +13,5 @@ int main ()
 
    }
     return 0;
+
 }
