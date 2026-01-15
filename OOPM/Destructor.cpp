@@ -6,7 +6,7 @@ using namespace std;
     string name;
     int *data;
 
-    public:
+    public :
 
     Customer(string name)
     {
@@ -32,4 +32,5 @@ int main ()
   Customer A1("1"),A2("2"),A3("3");
 
     return 0;
+
 }
