@@ -10,7 +10,7 @@ using namespace std;
 
     customer(string name,int balance,int account_number)
     {
-        this->name=name;
+        this->name =name;
         this->balance=balance;
         this->account_number=account_number;
     };
@@ -63,4 +63,5 @@ int main()
    }
 
     return 0;
+
 }
