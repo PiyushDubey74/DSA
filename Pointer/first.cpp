@@ -9,8 +9,9 @@ int main (){
      
     int b=20;
     int *p;
-    p=&b;
+    p= &b;
 
 }
 // It return the address of the a that stores the int value of 10.
+
  
