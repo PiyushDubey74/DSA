@@ -5,7 +5,7 @@ int main (){
     // variable ke liya heap memory allocation karo
     int *ptr = new int;
     *ptr=5;//value assign
-    cout<<*ptr<<endl;
+    cout<<*ptr<< endl;
 
 
     float*ptr2=new float;
@@ -31,4 +31,5 @@ int main (){
     delete ptr2;
     
     return 0;
+
 }
