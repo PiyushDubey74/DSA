@@ -8,7 +8,7 @@ using namespace std;
   }
 
 //   cout<<num<<endl;
-  return n*factorial(n-1);
+  return n*factorial(n -1);
 
 
  }
@@ -19,4 +19,5 @@ int main (){
     cout << "Factorial of " << n << " is " << result << endl;
 
     return 0;
+
 }
