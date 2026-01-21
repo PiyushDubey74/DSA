@@ -7,7 +7,7 @@ using namespace std;
         return ;
     }
     cout<<n<<"Days left for birthday"<<endl;
-    fun3(n- 1);
+    fun3(n-1);
 
    }
 
@@ -18,7 +18,6 @@ int main (){
     return 0;
 
 }
-
 
 
 
