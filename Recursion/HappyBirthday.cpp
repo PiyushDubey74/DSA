@@ -3,7 +3,7 @@ using namespace std;
 
    void fun3(int n){
     if(n==0){
-        cout<<n<<"Happy Birthday";
+        cout<<n<<"Happy  Birthday";
         return ;
     }
     cout<<n<<"Days left for birthday"<<endl;
@@ -18,6 +18,7 @@ int main (){
     return 0;
 
 }
+
 
 
 
