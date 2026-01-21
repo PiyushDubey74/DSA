@@ -3,7 +3,7 @@ using namespace std;
 
  int factorial(int n){
   if(n==1){
-    cout<<1;
+    cout<< 1;
     return 1;
   }
 
@@ -19,4 +19,5 @@ int main (){
     cout << "Factorial of " << n << " is " << result << endl;
 
     return 0;
+
 }
