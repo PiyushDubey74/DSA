@@ -2,7 +2,7 @@
 using namespace std;
   
   // Parent class 
-  class Animal
+  class  Animal
   {
     public:
     virtual void speak() // virtual ka use sa ab hmm iss void speak ko run time me dekhange kya karna hai iska 
@@ -70,4 +70,5 @@ int main (){
   }
 
     return 0;
+
 }
