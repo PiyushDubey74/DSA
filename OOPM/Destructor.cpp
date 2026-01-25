@@ -3,7 +3,7 @@ using namespace std;
 
   class Customer
   {
-    string name;
+    string  name;
     int *data;
 
     public :
@@ -34,3 +34,4 @@ int main ()
     return 0;
 
 }
+
