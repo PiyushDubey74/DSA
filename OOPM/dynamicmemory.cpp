@@ -8,7 +8,7 @@ class Student
   string grade;
 
 };
-int main (){
+int main ( ){
 Student *S = new Student;
  (*S).name = "PIYUSH";
  (*S).age=22;
@@ -20,4 +20,5 @@ Student *S = new Student;
 
 
     return 0;
+
 }
