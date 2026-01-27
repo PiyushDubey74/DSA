@@ -38,7 +38,7 @@ int main() {
             end = mid - 1;
         } else {
           
-            ans = mid;
+            ans =mid;
             start = mid + 1;
         }
     }
@@ -48,3 +48,4 @@ int main() {
 
     return 0;
 }
+
