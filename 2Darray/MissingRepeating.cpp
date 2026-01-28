@@ -10,7 +10,7 @@ void printMatrix(int arr[][4], int rows) {
     }
 }
 
-void findMissingRepeating(int arr[][4], int n) {
+void findMissingRepeating(int arr[ ][4], int n) {
     vector<int> flat_arr;
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
@@ -62,3 +62,4 @@ int main() {
     return 0;
 
 }
+
