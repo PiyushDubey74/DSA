@@ -5,7 +5,7 @@ using namespace std;
     int start =0;
     int end=arr.size()-1;
 
-    while(start<end){
+    while(start< end){
         int sum = arr[start]+ arr[end];
         if(sum== target){
             return true;
@@ -37,5 +37,6 @@ int main (){
     return 0;
 
 }
+
 
 
