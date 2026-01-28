@@ -6,7 +6,7 @@ using namespace std;
       for(int j= 0;j<4;j++){
         cout<<arr[i] [j]<<" \t";
       }
-      cout<< endl;
+      cout << endl;
     }
  }
 
@@ -48,6 +48,7 @@ int main(){
     
 
 }
+
 
 
 
