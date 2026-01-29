@@ -125,7 +125,7 @@ int main() {
     cout << "Enter the size of array: ";
     cin >> n;
 
-    cout << "Enter the elements (sorted array): ";
+    cout << " Enter the elements (sorted array): ";
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
@@ -138,3 +138,4 @@ int main() {
 
     return 0;
 }
+
