@@ -5,7 +5,7 @@ bool findthedifference(vector<int>&arr,int target){
     int start=0;
     int end =1;
      int n = arr.size();
-    while(end< n){
+    while( end< n){
      int sum=arr[end]-arr[start];
      if(sum == target){
         return true;
@@ -36,5 +36,6 @@ int main ()
     return 0;
 
 }
+
 
 
