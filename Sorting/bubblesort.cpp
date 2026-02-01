@@ -42,7 +42,7 @@ int main (){
   cout<<"Enter the size of array ";
   cin>>n;
   cout<<"Enter the element of array";
-   for(int i=0;i<n;i++){
+   for(int i =0;i<n;i++){
     cin>>arr[i];
    }
    for(int i=n-2;i>=0;i--) 
@@ -66,6 +66,7 @@ int main (){
    for(int i=0;i<n;i++){
     cout<<arr[i]<<" ";  
  }
+
 
 
 }
