@@ -2,7 +2,7 @@
 using namespace std;
 
    void bubble_sort(int arr[],int  n){
-    for(int i =i-1;i>=0;i--){
+    for(int i =i-1;i>= 0;i--){
         for(int j=0;j<=i-1;j++){
             if(arr[j]>arr[j+1]){
                 int temp =arr[j+1];
@@ -26,4 +26,5 @@ using namespace std;
  
  
  return 0;
+
 }
