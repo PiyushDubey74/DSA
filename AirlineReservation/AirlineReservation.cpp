@@ -4,7 +4,7 @@
 // #include<sstream>
 using namespace std;
 
-   class Airline{
+   class Airline {
     string Flight,Des,Dep;
 
     int Seats;
@@ -66,4 +66,5 @@ while(!exit){
     cout<<"\t 2.Exit"<<endl;
     cout<<"\t Enter Your Choice : ";
 }
+
 }
