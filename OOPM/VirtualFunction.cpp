@@ -5,7 +5,7 @@ using namespace std;
   class  Animal
   {
     public:
-    virtual void speak() // virtual ka use sa ab hmm iss void speak ko run time me dekhange kya karna hai iska 
+    virtual void  speak() // virtual ka use sa ab hmm iss void speak ko run time me dekhange kya karna hai iska 
     {
         cout<<"HUHU\n";
     }
@@ -72,3 +72,4 @@ int main (){
     return 0;
 
 }
+
