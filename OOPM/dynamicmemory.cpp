@@ -9,7 +9,7 @@ class Student
 
 };
 int main ( ){
-Student *S = new Student;
+Student * S = new Student;
  (*S).name = "PIYUSH";
  (*S).age=22;
  (*S).roll_number=74;
@@ -22,3 +22,4 @@ Student *S = new Student;
     return 0;
 
 }
+
