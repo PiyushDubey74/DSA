@@ -5,7 +5,7 @@
 using namespace std;
 
    class Airline {
-    string Flight,Des,Dep;
+    string Flight, Des,Dep;
 
     int Seats;
 
@@ -68,3 +68,4 @@ while(!exit){
 }
 
 }
+
