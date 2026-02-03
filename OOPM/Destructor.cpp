@@ -4,7 +4,7 @@ using namespace std;
   class Customer
   {
     string  name;
-    int *data;
+    int * data;
 
     public :
 
@@ -34,4 +34,5 @@ int main ()
     return 0;
 
 }
+
 
