@@ -4,7 +4,7 @@ using namespace std;
    class customer
    {
     string name;
-    int balance,account_number;
+    int balance ,account_number;
 
     public:
 
@@ -65,3 +65,4 @@ int main()
     return 0;
 
 }
+
