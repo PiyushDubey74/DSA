@@ -15,7 +15,7 @@ int main() {
         }
     }
     
-    if(found) {
+    if(found ) {
         cout << "YES" << endl;
     } else {
         cout << "NO" << endl;
@@ -23,3 +23,4 @@ int main() {
     
     return 0;
 }
+
