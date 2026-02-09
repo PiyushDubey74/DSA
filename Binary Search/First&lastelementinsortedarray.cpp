@@ -83,7 +83,7 @@ using namespace std;
 
 int firstOccurrence(int arr[], int n, int key) {
     int start = 0, end = n - 1, result = -1;
-    while (start <= end) {
+    while (start < = end) {
         int mid = start + (end - start) / 2;
         if (arr[mid] == key) {
             result = mid;
@@ -138,5 +138,6 @@ int main() {
 
     return 0;
 }
+
 
 
