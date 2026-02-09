@@ -12,7 +12,7 @@ using namespace std;
     public:
     Airline(string Flight,string Des,string Dep,int Seats){
         this->Flight=Flight;
-        this->Dep=Dep;
+        this->Dep =Dep;
         this->Des=Des;
         this->Seats=Seats;
     }
@@ -68,4 +68,5 @@ while(!exit){
 }
 
 }
+
 
