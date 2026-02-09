@@ -6,7 +6,7 @@ int main (){
     cout<<"Enter a value";
     cin>>n;
     int arr[n];
-    for(int i=0;i<n;i++){
+    for(int i=0;i< n;i++){
         cin>>arr[i];
     }
      
@@ -28,4 +28,5 @@ int main (){
 
 
     return 0;
+
 }
