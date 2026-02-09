@@ -9,7 +9,7 @@ int main() {
     int n = stalls.size();
 
     
-    std::sort( stalls.begin(), stalls.end());
+    std::sort( stalls. begin(  ), stalls.end());
 
 
     int start = 1;
@@ -48,5 +48,6 @@ int main() {
 
     return 0;
 }
+
 
 
