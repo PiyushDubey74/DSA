@@ -14,7 +14,7 @@ using namespace std;
         // data=new int ;
         // *data=10;
         // cout<<"Constructor is called\n";
-        this->name=name;
+        this-> name=name;
         cout<<"Constructor name is "<<name<<endl;
     }
     //Destructor
@@ -34,5 +34,6 @@ int main ()
     return 0;
 
 }
+
 
 
