@@ -10,7 +10,8 @@ int main(){
 
     int num=10;
     int temp=num;
-    incr(&num);
+    incr(&num );
     cout<<num;
 
 }
+
