@@ -10,7 +10,7 @@ int main (){
 
     float* ptr2=new float;
     *ptr2=3.6;
-    cout<<*ptr2<<endl;
+    cout<<*ptr2 <<endl;
 
     int n;
     cout<<"Enter the size of array";
@@ -33,4 +33,5 @@ int main (){
     return 0;
 
 }
+
 
