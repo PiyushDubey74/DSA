@@ -121,7 +121,7 @@ int countOccurrence(int arr[], int n, int key) {
 }
 
 int main() {
-    int arr[1000 ], n;
+    int arr [1000 ], n;
     cout << "Enter the size of array: ";
     cin >> n;
 
@@ -138,6 +138,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
