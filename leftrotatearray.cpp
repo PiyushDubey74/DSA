@@ -10,7 +10,7 @@ int main (){
     // int*arr= new int[n];
      cout<<"Enter"<<n<<"integers"<<endl;
       for(int i =0;i<n;i++){
-         cin>>arr[i];
+         cin>>arr[ i];
     }
      int temp = arr[0];
      for(int i=0;i<n;i++){
