@@ -97,7 +97,7 @@ int firstOccurrence(int arr[], int n, int key) {
     return result;
 }
 
-int lastOccurrence (int arr[], int n, int key) {
+int lastOccurrence (int arr[ ], int n, int key) {
     int start = 0, end = n - 1, result = -1;
     while (start <= end) {
         int mid = start + (end - start) / 2;
@@ -138,6 +138,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
