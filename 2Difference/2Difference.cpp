@@ -2,7 +2,7 @@
 using namespace std;
 
 bool findthedifference(vector<int>&arr,int target){
-    int start=0;
+    int start =0;
     int end =1;
      int n = arr.size( );
     while( end< n){
@@ -36,6 +36,7 @@ int main ()
     return 0;
 
 }
+
 
 
 
