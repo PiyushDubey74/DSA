@@ -26,7 +26,7 @@ using namespace std;
     }
   };
 
-int main ()
+int main ( )
 {
 
   Customer A1("1"),A2("2"),A3("3");
@@ -34,6 +34,7 @@ int main ()
     return 0;
 
 }
+
 
 
 
