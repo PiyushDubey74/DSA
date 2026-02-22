@@ -113,7 +113,7 @@ int lastOccurrence (int arr[ ], int n, int key) {
     return result;
 }
 
-int countOccurrence(int arr[], int n, int key) {
+int countOccurrence(int arr[ ], int n, int key) {
     int first = firstOccurrence(arr, n, key);
     if (first == -1) return 0; // key not found
     int last = lastOccurrence(arr, n, key);
@@ -138,6 +138,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
