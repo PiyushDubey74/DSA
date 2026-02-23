@@ -7,7 +7,7 @@ int main (){
     // // cout<<ptr;
     // cout<<*ptr;
      
-    int b=20;
+    int b= 20;
     int *p;
     p= &b;
 
@@ -15,3 +15,4 @@ int main (){
 // It return the address of the a that stores the int value of 10.
 
  
+
