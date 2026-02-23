@@ -7,7 +7,7 @@ int main (){
   // Print the address of first element OR 0th index
   cout<<arr<<endl;
   cout<<arr+0<<endl;
-  cout<<&arr[0]<<endl;
+  cout<<&arr [0]<<endl;
   cout<<ptr<<endl;
   
   // Print address of second element OR 1st index
@@ -38,3 +38,4 @@ int main (){
     return 0;
 
 }
+
