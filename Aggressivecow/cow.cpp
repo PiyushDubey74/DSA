@@ -6,7 +6,7 @@ int main() {
  
     std::vector<int> stalls = {1, 2, 8, 4, 9};
     int k = 3; 
-    int n = stalls.size();
+    int n = stalls.size( );
 
     
     std::sort( stalls. begin(  ), stalls.end());
@@ -48,6 +48,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
