@@ -10,7 +10,7 @@ void selection_sort(int arr[],int n){
         }
         int temp =arr[mini];
         arr[mini] =arr[i];
-        arr[i] =temp;
+        arr[i] = temp;
     }
 }
 int main (){
@@ -27,4 +27,5 @@ int main (){
 
 
        return 0;
+
 }
