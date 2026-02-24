@@ -6,7 +6,7 @@ using namespace std;
     int left=start,right=mid+1,index=0;
 
     while(left<= mid && right<=end){
-        if(arr[left]<=arr[right]){
+        if(arr[left] <=arr[right]){
             temp[index]=arr[left];
             index++,left++;
         }
@@ -58,3 +58,4 @@ int main (){
     }
 
 }
+
