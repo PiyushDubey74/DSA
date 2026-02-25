@@ -8,7 +8,7 @@ while(start<=end){
    
      mid=start+(end-start)/2;
 
-     if(arr[mid]==key){
+     if(arr[mid]== key){
         first=mid;
         end=mid-1;
      }
@@ -67,6 +67,7 @@ int main (){
   cout<<BinarySearch(arr,n,key)<<endl;
  
  return 0;
+
 
 
 
