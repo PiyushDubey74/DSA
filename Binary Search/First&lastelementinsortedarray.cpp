@@ -88,7 +88,7 @@ int firstOccurrence(int arr[], int n, int key) {
         if (arr[mid] == key) {
             result = mid;
             end = mid - 1;
-        } else if (arr[mid] < key) {
+        } else if (arr [mid] < key) {
             start = mid + 1;
         } else {
             end = mid - 1;
@@ -138,6 +138,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
