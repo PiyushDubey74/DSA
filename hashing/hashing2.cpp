@@ -8,7 +8,7 @@ int main (){
    
      
    
-     int hash[26 ] ={ 0};
+     int hash[ 26 ] ={ 0};
      for(int i=0;i<s.size();i++){
         hash[s[i] -'a']++;
      }
@@ -26,5 +26,6 @@ int main (){
     return 0;
 
 }
+
 
 
