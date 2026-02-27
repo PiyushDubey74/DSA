@@ -6,7 +6,7 @@ using namespace std;
     string Religion,colour;
     public:
     string name;
-    int age,weight;
+    int age, weight;
 
   };
 
@@ -61,4 +61,5 @@ int main ()
     Teacher b("Dubey");
     b.fun();
     return 0;
+
 }
