@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main ()
+int main ( )
 {
    try{
   //int  *p= new int[10000000000000];
@@ -15,4 +15,5 @@ int main ()
     return 0;
 
 }
+
 
