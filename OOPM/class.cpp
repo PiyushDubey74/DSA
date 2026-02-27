@@ -11,7 +11,7 @@ using namespace std;
  
 int main (){
  
-    Student S1;
+    Student  S1;
     S1.name="Piyush";
     S1.age=22;
     S1.roll_number=74;
@@ -25,4 +25,5 @@ int main (){
     S2.grade="A++";
     cout<<S2.age<<" "<<S2.name<<" "<<S2.grade<<" "<<S2.roll_number<<" ";
     return 0;
+
 }
