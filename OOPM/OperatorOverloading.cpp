@@ -7,7 +7,7 @@ using namespace std;
 
     public :
 
-    Complex()
+    Complex( )
     {
 
     };
@@ -42,3 +42,4 @@ int main (){
     return 0;
 
 }
+
