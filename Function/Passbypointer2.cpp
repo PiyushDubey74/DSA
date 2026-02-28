@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
- void dob(int *p)
+ void dob(int * p)
  {
     for(int i=0;i<5;i++){
         p[i]=2 *p[i];
@@ -18,4 +18,5 @@ int main ( ){
     return 0;
 
 }
+
 
