@@ -12,7 +12,7 @@ int main ( )
 try{
     if(b==0)
     throw "Disible by 0 is not possible";
-  int c=a/b;
+  int c= a/b;
   cout<<c<<endl;
 }
 catch(const char *e)
@@ -23,3 +23,4 @@ catch(const char *e)
     return 0;
 
 }
+
