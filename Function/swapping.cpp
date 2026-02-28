@@ -3,7 +3,7 @@ using namespace std;
 
   void swapping( int *p,int *p2)
   {
-    int temp=*p;
+    int temp =*p;
     *p= *p2;
     *p2=temp;
 
@@ -17,4 +17,5 @@ int main (){
 
 
 }
+
 
