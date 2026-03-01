@@ -2,7 +2,7 @@
 using namespace std;
 int main (){
   
-   char arr[5]={1,2,3,4,5};
+   char arr[5]= {1,2,3,4,5};
    char*ptr=arr;
    cout<< (void*)arr<<endl;
    cout<<(void*)ptr<< endl;
@@ -12,4 +12,5 @@ int main (){
     return 0;
 
 }
+
 
