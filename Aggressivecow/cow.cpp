@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 
-int main() {
+int main( ) {
  
     std::vector<int> stalls = {1, 2, 8, 4, 9};
     int k = 3; 
@@ -48,6 +48,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
