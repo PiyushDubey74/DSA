@@ -2,7 +2,7 @@
 using namespace std;
 int main (){
 
-  int arr[5]={1,2,3,4,5};
+  int arr[5] ={1,2,3,4,5};
   int *ptr= arr;
   // Print the address of first element OR 0th index
   cout<<arr<<endl;
@@ -38,4 +38,5 @@ int main (){
     return 0;
 
 }
+
 
