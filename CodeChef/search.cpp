@@ -18,11 +18,12 @@ int main() {
     if( found ) {
         cout << "YES" << endl;
     } else {
-        cout << "NO" << endl;
+        cout << "NO" <<  endl;
     }
     
     return 0;
 }
+
 
 
 
