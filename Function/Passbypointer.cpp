@@ -6,7 +6,7 @@ using namespace std;
      *ptr=*ptr + 1;
   }
 
-int main(){
+int main( ){
 
     int num =10;
     int temp=num;
@@ -14,6 +14,7 @@ int main(){
     cout<<num;
 
 }
+
 
 
 
