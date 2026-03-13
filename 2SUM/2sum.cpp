@@ -3,7 +3,7 @@ using namespace std;
 
  bool findpairwithsum(vector<int>&arr,int target){
     int start = 0;
-    int end=arr.size()-1;
+    int end=arr.size( )-1;
 
     while(start < end){
         int sum = arr[start]+ arr[end];
