@@ -52,7 +52,7 @@ using namespace std;
 
 
 
-int main ()
+int main ( )
 {
 
     student A("Piyush",12,400,23,200);
