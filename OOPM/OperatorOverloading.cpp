@@ -5,7 +5,7 @@ using namespace std;
  {
     int real,img;
 
-    public :
+    public:
 
     Complex()
     {
