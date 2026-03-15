@@ -7,7 +7,7 @@ int main (){
     cin>>s;
      
     
-     int hash[ 256] ={0};
+     int hash[256] ={0};
      for(int i=0;i<s.size();i++){
         hash[s[i]]++;
      }
