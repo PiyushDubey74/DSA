@@ -16,7 +16,7 @@ int main (){
     cout<<"Enter the size of array";
     cin>>n;
 
-    int *p= new int[n];
+    int *p=new int[n];
 
     //value daalo
     for(int i=0;i<n;i++){
