@@ -6,7 +6,7 @@ int main (){
    char*ptr=arr;
    cout<< (void*)arr<<endl;
    cout<<(void*)ptr<< endl;
-   char name= 'a';
+   char  name= 'a';
    cout<<&name;
        
     return 0;
