@@ -18,7 +18,7 @@ using namespace std;
             while(start<=end){
                 int mid=start+(end-start)/2;
                   if(arr[i][mid]==target){
-                    return true;
+                    return  true;
                   }
                   else if(arr[i][mid]<target)
                   start=mid+1;
