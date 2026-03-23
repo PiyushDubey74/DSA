@@ -14,7 +14,7 @@ void selection_sort(int arr[ ],int n){
     }
 }
 int main (){
-    int n;
+     int n;
     cout<<"Enter a value";
     cin>>n;
     int arr[n];
