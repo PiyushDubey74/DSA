@@ -20,7 +20,7 @@ int main (){
       for(auto it:mpp){
         cout<<it.first<<"->"<<it.second <<endl;
           }
-     int q;
+      int q;
      cin>>q;
      while(q--){
         int number;
