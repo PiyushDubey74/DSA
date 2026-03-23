@@ -17,7 +17,7 @@ using namespace std;
     }
 
     // left array is not empty yet
-    while(left<=mid){
+     while(left<=mid){
         temp[index]=arr[left];
             index++,left++;
         }
