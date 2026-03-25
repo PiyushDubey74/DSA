@@ -2,7 +2,7 @@
 using namespace std;
 
 void printMatrix(int arr[][4], int rows) {
-    for (int i = 0; i < rows; ++i) {
+    for (int i = 0; i < rows;++i) {
         for (int j = 0; j < 4; ++j) {
             cout << arr[i][j] << "\t";
         }
