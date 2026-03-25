@@ -131,7 +131,7 @@ int main() {
     }
 
     int key;
-    cout << "Enter the value of key: ";
+    cout<< "Enter the value of key: ";
     cin >> key;
 
     cout << "Count of " << key << ": " << countOccurrence(arr, n, key) << endl;
