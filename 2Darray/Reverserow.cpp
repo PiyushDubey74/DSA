@@ -36,7 +36,7 @@ void printmatrix(int arr[][4],int row){
         int end=col-1;
 
         while(start<end){
-            swap(arr[i][start],arr[i][end]);
+            swap(arr[i ][start],arr[i][end]);
             start++;
             end--;
             
