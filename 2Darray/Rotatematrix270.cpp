@@ -12,7 +12,7 @@ void printmatrix(int arr[][4], int row){
 }
 
 
-void rotate270(int arr[][4], int n){
+void rotate270(int arr[][4], int  n){
     // Step 1: Reverse the order of the rows
     for(int i=0; i < n / 2; i++){
         for(int j=0; j < n; j++){
