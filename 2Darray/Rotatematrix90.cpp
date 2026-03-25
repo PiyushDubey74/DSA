@@ -10,7 +10,7 @@ using namespace std;
     }
    }
    // rotate code by 90*
-   void printmatrix90(int arr[][4],int n){
+   void printmatrix90(int arr[ ][4],int n){
        for(int i=0;i<n;i++){
           for(int j=1;j<n;j++){
          swap(arr[i][j],arr[j][i]);
