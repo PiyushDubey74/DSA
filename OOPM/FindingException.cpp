@@ -4,7 +4,7 @@ int main ()
 {
    try{
   //int  *p= new int[10000000000000];
-  cout<<"Memory  allocation is successfully \n";
+   cout<<"Memory  allocation is successfully \n";
   // delete []p;
    }
    catch(const exception &e)
