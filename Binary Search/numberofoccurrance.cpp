@@ -14,7 +14,7 @@ while(start<=end){
      }
 
      else if(arr[mid]<key){
-        start=mid+1;
+         start=mid+1;
      }
 
      else
