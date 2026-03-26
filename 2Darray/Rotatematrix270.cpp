@@ -28,7 +28,7 @@ void rotate270(int arr[][4], int  n){
     }
 }
 
-int main (){
+int main ( ){
     int arr[4][4]={
         {1, 2, 3, 4},
         {5, 6, 7, 8},
