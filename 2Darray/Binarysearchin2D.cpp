@@ -39,7 +39,7 @@ int main(){
     print2D(arr,n);
      cout << endl;
   if (binarySearchOnMatrix(arr, n, target)) {
-        cout << "Target " << target << " found in the matrix." << endl;
+         cout << "Target " << target << " found in the matrix." << endl;
     } else {
         cout << "Target " << target << " not found in the matrix." << endl;
     }
