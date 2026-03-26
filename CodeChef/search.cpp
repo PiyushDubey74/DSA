@@ -8,7 +8,7 @@ int main() {
     bool found = false;
     for(int i = 0; i < N;i++) {
         int Ai;
-        cin > > Ai;
+        cin >> Ai;
         if(Ai = = X) {
             found = true;
            
