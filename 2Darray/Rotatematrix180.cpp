@@ -3,7 +3,7 @@ using namespace std;
 
 // Your existing printmatrix function
 void printmatrix(int arr[][4], int row){
-    for(int i=0; i<row; i++){
+    for(int i=0;i<row; i++){
         for(int j=0;j<4; j++){
             cout << arr[i][j] << "\t";
         }
