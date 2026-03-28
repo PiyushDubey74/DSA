@@ -38,7 +38,7 @@ int main (){
   Complex C2(7,8);
 
  Complex C3=C1+C2;
- C3.diplay();
+  C3.diplay();
     return 0;
 
 }
