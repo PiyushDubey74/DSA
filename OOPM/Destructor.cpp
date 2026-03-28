@@ -18,7 +18,7 @@ using namespace std;
         cout<<"Constructor name is "<<name<<endl;
     }
     //Destructor
-    ~Customer( )
+    ~Customer()
     {
         // delete data;
         // cout<<"Destructor is called \n";
