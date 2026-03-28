@@ -7,7 +7,7 @@ int main ()
    cout<<"Memory  allocation is successfully \n";
   // delete []p;
    }
-   catch(const exception &e)
+    catch(const exception &e)
    {
      cout<<"Exception Occured : "<<e.what()<<endl;
 
