@@ -38,7 +38,6 @@ using namespace std;
 
     int mid = start+(end-start)/2;
 
-
    // left side
    mergesort(arr,start,mid);
    // right side
