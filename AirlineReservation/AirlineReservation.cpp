@@ -55,7 +55,7 @@ else{
     cout<<"\t"<<flight3.getflight()<<" : "<<flight3.getDes()<<": "<<flight3.getDep()<<":"<<flight3.getSeat()<<endl;
 
     cout<<"Data Saved Successfuly !"<<endl;
-    out.close();
+    out.close() ;
 }
 bool exit=false;
 while(!exit){
