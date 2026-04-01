@@ -27,7 +27,7 @@ int main (){
 
     
  
-    int arr[1000];
+   int arr[1000];
     int n;
     cout<<"Enter the size of array";
     cin>>n;
