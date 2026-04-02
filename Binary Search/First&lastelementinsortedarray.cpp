@@ -14,7 +14,7 @@
 //             first = mid;
 //             end = mid - 1;  // move left to find earlier occurrence
 //         }
-//         else if (arr[mid] < key) {
+//         else if (arr[mid] <key) {
 //             start = mid + 1;
 //         }
 //         else {
