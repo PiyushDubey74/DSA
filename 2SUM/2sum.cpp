@@ -10,7 +10,7 @@ using namespace std;
         if(sum== target){
             return true;
         }
-        else if ( sum<target)
+        else if (sum<target)
         start++;
         
         else{
