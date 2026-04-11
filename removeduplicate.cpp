@@ -9,7 +9,7 @@ int main() {
     int arr[n]; 
     cout << "Enter " << n << " integers:\n";
     for (int i = 0; i < n; ++i) {
-        cin >> arr[i];
+        cin >>arr[i];
     }
 
     
