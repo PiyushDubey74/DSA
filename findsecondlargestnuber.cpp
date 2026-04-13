@@ -13,7 +13,7 @@ int main (){
      int secondlargest =-1;
     for(int i=0;i<n;i++){
         if(arr[i]>largest){
-            secondlargest = largest;
+            secondlargest =largest;
             largest = arr[i];
         } else if (arr[i]<largest && (secondlargest ==-1 || arr[i]>secondlargest)){
           secondlargest =arr[i];  
