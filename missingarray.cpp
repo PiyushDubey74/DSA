@@ -6,7 +6,7 @@ int main() {
     cout << "Enter the value of n (total numbers including the missing one): ";
     cin >> n;
 
-    int arr[n - 1];
+    int arr[n -1];
     cout << "Enter " << n - 1 << " elements:\n";
     for (int i = 0; i < n - 1; ++i) {
         cin >> arr[i];
