@@ -2,7 +2,7 @@
 using namespace std;
 int main (){
  
-    int arr[] = {1,2,3,4,5,6};
+    int arr[ ] = {1,2,3,4,5,6};
    int start =0,end =5;
    while(start <end){
    swap(arr[start],arr[end]);
