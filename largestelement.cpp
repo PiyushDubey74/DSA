@@ -8,7 +8,7 @@ int main (){
 
     int*arr= new int[n];
     cout<<"Enter"<<n<<"integers"<<endl;
-    for(int i =0;i<n;i++){
+    for(int i=0;i<n;i++){
         cin>>arr[i];
     }
    int largest =arr[0];
