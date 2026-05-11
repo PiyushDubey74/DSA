@@ -6,7 +6,7 @@ int main (){
     cout<<"Enter the number of element";
     cin>>n;
 
-    int*arr= new int[n];
+    int*arr= new int[n ];
     cout<<"Enter"<<n<<"integers"<<endl;
     for(int i=0;i<n;i++){
         cin>>arr[i];
