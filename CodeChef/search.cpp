@@ -10,7 +10,7 @@ int main() {
         int Ai;
         cin >> Ai;
         if(Ai == X) {
-            found = true;
+            found =true;
            
         }
     }
