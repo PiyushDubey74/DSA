@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main (){
+int main ( ){
 
     int c;
     cout<<"Enter the size of array";
