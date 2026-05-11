@@ -50,7 +50,7 @@ int main (){
   int n;
   cout<<"Enter the value of number";
   cin>>n;
-  int arr[1000];
+  int arr[ 1000];
 
   arr[0]= 0;
   arr[1]=1;
