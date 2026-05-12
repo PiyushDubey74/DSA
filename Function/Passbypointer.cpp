@@ -6,9 +6,9 @@ using namespace std;
      *ptr=* ptr + 1;
   }
 
-int main(){
+int main( ){
 
-    int num = 10;
+    int num =10;
     int temp=num;
     incr(&num );
     cout<<num;
