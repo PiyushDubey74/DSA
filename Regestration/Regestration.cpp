@@ -19,7 +19,7 @@ using namespace std;
     string getID(){
         return LogiID;
     }
-    string getPW(){
+    string getPW (){
         return Password;
     }
   };
