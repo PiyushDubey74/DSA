@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
- bool findpairwithsum(vector<int>&arr,int target){
+ bool findpairwithsum(vector <int>&arr,int target){
     int start = 0;
     int end=arr.size()-1;
 
