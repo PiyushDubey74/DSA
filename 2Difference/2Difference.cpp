@@ -25,7 +25,7 @@ bool findthedifference(vector<int>&arr,int target){
 }
 int main ()
 {
- vector<int> arr={2,3,5,10,50,80};
+ vector<int > arr={2,3,5,10,50,80};
  int target = 41;
  if(findthedifference(arr,target)){
     cout<<"Pair with the difference is found"<<endl;
