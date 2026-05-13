@@ -6,7 +6,7 @@ using namespace std;
     string name;
     int *data;
 
-    public :
+    public:
 
     Customer(string name)
     {
