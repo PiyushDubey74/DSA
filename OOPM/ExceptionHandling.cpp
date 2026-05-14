@@ -31,7 +31,7 @@ using namespace std ;
     {
         if(amount>0&&amount<=balance)
         {
-           balance-=amount;
+           balance-= amount;
            cout<<amount<<" rs withdraw successfully\n";
         }
         else if(amount<0)
