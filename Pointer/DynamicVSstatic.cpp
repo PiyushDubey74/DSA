@@ -8,7 +8,7 @@ int main (){
     cout<<*ptr<< endl;
 
 
-    float* ptr2=new float;
+    float* ptr2= new float;
     *ptr2=3.6;
     cout<<*ptr2 <<endl;
 
