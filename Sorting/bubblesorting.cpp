@@ -13,7 +13,7 @@ using namespace std;
     }
 }   
 
- int main (){
+ int main(){
  int n;
  cout<<"Enter a vlaue";
  cin>>n;
