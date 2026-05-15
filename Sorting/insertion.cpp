@@ -14,7 +14,7 @@ void insertion_sort(int arr[],int n){
     }
 }
 
-int main (){
+int main(){
     int n;
     cout<<"Enter a value";
     cin>>n;
