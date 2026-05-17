@@ -6,7 +6,7 @@ using namespace std;
       cout<<n<<" Even  Number"<<endl;
       return;
    }
-   EvenNumber(n-2);
+   EvenNumber (n-2);
     cout<<n<<" Even Number"<<endl;
  }
 
