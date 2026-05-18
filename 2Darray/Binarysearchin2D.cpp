@@ -10,7 +10,7 @@ using namespace std;
     }
  }
 
- bool binarySearchOnMatrix(int arr[][4],int n,int target){
+ bool binarySearchOnMatrix(int arr[] [4],int n,int target){
     for(int i=0;i<n;i++){
         if(arr[i][0]<=target&& target<=arr[i][n-1]){
             int start=0;
