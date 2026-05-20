@@ -5,7 +5,7 @@
 int main () {
  
     std::vector<int> stalls = {1, 2, 8, 4, 9};
-    int k = 3; 
+    int k =3; 
     int n = stalls.size( );
 
     
