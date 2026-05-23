@@ -8,7 +8,7 @@ using namespace std ;
 
     public:
 
-    customer(string name ,int balance,int account_number)
+    customer(string name , int balance,int account_number)
     {
         this->name = name;
         this->balance=balance;
