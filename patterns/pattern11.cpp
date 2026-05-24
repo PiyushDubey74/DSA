@@ -6,7 +6,7 @@ int main (){
      cout<<"Enter a number";
      cin>> n;
       
-     int star=1;
+     int star= 1;
      for(int i=0;i<n;i++){
       if(i%2==0) star=1;
       else star =0;
