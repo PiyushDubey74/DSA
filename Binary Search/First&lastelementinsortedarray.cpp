@@ -126,7 +126,7 @@ int main() {
     cin >> n;
 
     cout << " Enter the elements (sorted array): ";
-    for (int i = 0; i < n; i++) {
+    for (int i =0; i < n; i++) {
         cin >> arr[i];
     }
 
