@@ -9,7 +9,7 @@ int main (){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-      int val =0;
+      int val = 0;
     for(int i=0;i<c;++i){
          bool isDuplicate = false;
         for(int j=i+1;j<c;){
