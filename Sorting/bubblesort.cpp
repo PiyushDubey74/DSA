@@ -47,7 +47,7 @@ int main(){
    }
    for(int i= n-2;i>=0;i--) 
    {
-    bool swapped =0;
+    bool swapped = 0;
     for(int j=0;j<=i;j++){
         if(arr[j]>arr[j+1])
         {
