@@ -6,7 +6,7 @@ int main() {
     cin >> N >>X;
     
     bool found =false;
-    for(int i = 0; i < N;i++) {
+    for(int i =0; i < N;i++) {
         int Ai;
         cin >> Ai;
         if(Ai == X) {
