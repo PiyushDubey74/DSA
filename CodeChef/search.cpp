@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int N, X;
-    cin >> N >> X;
+    cin >> N >>X;
     
     bool found = false;
     for(int i = 0; i < N;i++) {
