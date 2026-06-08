@@ -7,7 +7,7 @@ using namespace std;
 
     while(start<end){
         int sum = arr[start]+ arr[end];
-        if(sum==target){
+        if(sum ==target){
             return true;
         }
         else if (sum<target)
