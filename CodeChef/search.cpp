@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int N, X;
+    int N,X;
     cin >> N >>X;
     
     bool found =false;
